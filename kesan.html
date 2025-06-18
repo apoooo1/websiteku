@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kesan Untukmu</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+ 
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4ec, #fceaff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/pink-paper.png');
+      z-index: -1;
+    }
+
+    .kesan-box {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 2rem;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 600px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+    }
+
+    .kesan-box p {
+      font-size: 1.3rem;
+      color: #6c3483;
+      font-style: italic;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="kesan-box">
+    <p>
+     Hay Hana👋🏻<br />
+      sebelumnya minta maaf sebesar-besarnya dulu nih karena nggak sempat datang ke sidang kamu🙏🏻
+Rasa bersalah banget sih karena nggak datang maaf bangettt ya🥹<br />
+      Kita kenalannya blm lama tapi udah banyak kenangan ajah hehehe, kamu orangnya baik ya, makasih ya udah pernah traktir kita makan beberapa kali☺️, trus makasih juga udah percaya sama kita dan ceritain tentang diri kamu ke kita🫂. Ya pasti nggak gampang ya Seterbuka itu sama orang tapi kamu percaya banget ya sama kita, trus dari situ juga kita tahu ternyata kamu sekuat itu ya💪, meskipun pernah beberapa kali ketemu orang yang buat kamu sakit hati tapi kamu tetap bertahan.<br />
+      Pasti berat banget ya sampai di tahap ini tapi untungnya kamu ketemu beberapa orang baik yang selalu bantu kamu trus loisa yang seasik itu, suka buat tertawa dan selalu bisa di ajak jalan atau emang jiwanya ajah ya yg suka jalan hehehe😅<br />
+      Sekarang mau ngucapin selamat kamu udah mau berjuang sampai tahap terakhir ini. Hari ini kamu udah buktikan kalo kamu bisa. Jangan lupa terimakasih sama diri kamu sendiri karena dia mau bertahan, dia mau terus lanjut meskipun mendapatkan kata" yg kurang menyenangkan tapi dia tetap berusaha, dia mengeluh tapi dia menyelesaikan semuanya, dan dia hebat sampai bisa buat kamu selesai deh☺️💐
+    </p>
+  </div>
+   <audio id="suara" src="hana.mp3" preload="auto"></audio>
+
+    <button onclick="document.getElementById('suara').play()" style="
+      margin-top: 2rem;
+      background-color:#ffb6c1;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;">
+      🔊 Putar Pesan Suara
+    </button>
+</body>
+</html>
